@@ -1,7 +1,7 @@
 ===Product Slider Extension===
 Contributors: (iwcontribution)
-Tags: Woocommerce Product Slider
-Requires at least: 4.2.2
+Tags: Woocommerce, Product Slider, Slider
+Requires at least: 3.5.1
 Tested up to: 4.2.2
 Product Slider allows Product to be view as slider.
 
