@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, a:hover, a:focus { 
+    outline: none!important;
+}
+ul.products{
+    display: none;
+}
+.woo-product-slider:before, 
+.woo-product-slider:after, 
+.woo-product-slider .jcarousel .price:after, 
+.woo-product-slider .jcarousel .price:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.woo-product-slider {
+    padding: 0;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+.woo-product-slider .jcarousel li {
+    margin: 0 2px;
+    padding: 5px;
+}
+.woo-product-slider .jcarousel .price { 
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+}
+.woo-product-slider .jcarousel .price ins, .woo-product-slider .jcarousel .price { 
+    float: left;
+    background: transparent;
+    font-size: 100%;
+    font-weight: 700;
+}
+.woo-product-slider .jcarousel .price del { 
+    float: right;
+    font-size: 80%;
+    margin: 3px 0;
+    font-weight: 400;        
+}
+.woo-product-slider .woo-product-image table {
+    max-width: 92%;
+    margin: 0 0 1em;
+    padding: 0;
+}
+.woo-product-slider .button {
+    font-size: 60%!important;
+    float: left;
+}
+.woo-product-slider .jcarousel-control-prev, .woo-product-slider .jcarousel-control-next {
+    background-color: transparent;
+    color: #4e443c;
+    font-size: 40px; 
+    line-height: 47px; 
+    text-shadow: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+.woo-product-slider .jcarousel-control-prev {
+    left: -35px;
+}
+.woo-product-slider .jcarousel-control-next {
+    right: -35px;
+}
+.woo-product-slider .added_to_cart {
+    background: url(../images/view-icon.png) center no-repeat;
+    background-color: #ebe9eb;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #515151;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 700;
+    left: auto;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding: 0.618em 1em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+    font-size: 0;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    float: right;
+}
+.woo-product-slider .added_to_cart:hover {
+    background-color: #dad8da;
+    color: #515151;
+    text-decoration: none;
+}
